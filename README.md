@@ -18,7 +18,8 @@ Desenvolver uma calculadora do Sistema Internacional de Unidades (SI) que faz co
 - Fazer o merge das _branches_ dos módulos.
 ### Demais desenvolvedores
 - Desenvolver separadamente os seguintes módulos: comprimento.py, massa.py, volume.py e velocidade.py.
-## Features que devem ser desenvolvidas
+
+## Funcionalidades que devem ser implementadas
 ### Módulo comprimento.py
 - Função de conversão de metros (m) para quilômetros (km).
 - Função de conversão de quilômetros (km) para (m).
@@ -30,5 +31,12 @@ Desenvolver uma calculadora do Sistema Internacional de Unidades (SI) que faz co
 - Função de conversão de mililitros (ml) para litros (l).
 ### Módulo velocidade.py
 - Função de conversão de quilômetros por hora (km/h) para metros por segundo (m/s).
-- Função de conversão de metros por segundo (m/s) para quilômetros por hora (km/h). 
+- Função de conversão de metros por segundo (m/s) para quilômetros por hora (km/h).
+### Módulo main.py
+- Menu para que o usuário escolha a conversão deseja.
+- Entrada de dados do usuário.
+- Chamada das funções criadas.
+
+## Outros requisitos
+- Documentar todas as funções e módulos.
 
