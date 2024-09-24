@@ -1,42 +1,49 @@
 # calculadora-si
-Calculadora do Sistema Internacional de Unidades (SI). Este repositório é o enunciado de um exercício prático de desenvolvimento de software usando o Git.
+Repositório para a Calculadora do Sistema Internacional de Unidades (SI). Este projeto serve como enunciado para um exercício prático de desenvolvimento de software utilizando Git.
 
 ## Objetivos da atividade
-Simular o trabalho em equipe em projeto simples de um calculadora do Sistema Internacional de Unidades onde há diferentes desenvolvedores trabalhando.
+Simular o trabalho em equipe em um projeto simples de desenvolvimento de uma calculadora do Sistema Internacional de Unidades, onde diferentes desenvolvedores colaboram em partes do sistema.
 
-## Descrição
-Desenvolver uma calculadora do Sistema Internacional de Unidades (SI) que faz conversão entre as medidas de comprimento, massa, volume e velocidade. O processo de desenvolvimento deve simular o trabalho em uma equipe de desenvolvedores no qual um desenvovedor será o líder do projeto.
+## Descrição do projeto
+Desenvolver uma calculadora do Sistema Internacional de Unidades (SI) capaz de realizar conversões entre medidas de comprimento, massa, volume e velocidade. O desenvolvimento deve refletir a dinâmica de uma equipe de desenvolvedores, com um desenvolvedor atuando como líder do projeto.
 
-## Uso do Git de forma colaborativa
-- Cada módulo deve ser implementado em um _branch_ separada. Essa _branch_  deve ser testada. Quando o desenvolvimento do módulo finalizar, a _branch_ criada deve ser _merge_ na  _branch_ principal.
+## Uso colaborativo do Git
+Cada módulo deve ser implementado em um _branch_ separado. Esse _branch_ deve ser testado antes de ser integrado. Ao final do desenvolvimento do módulo, o _branch_ deve ser mesclado à _branch_ principal.
 
 ## Atividades
+
 ### Desenvolvedor líder do projeto
 - Fazer um _fork_ deste repositório.
-- Compartilhar o repositório com demais desenvolvedores.
-- Gerenciar o projeto distribuindo as tarefas.
-- Fazer o merge das _branches_ dos módulos.
+- Compartilhar o repositório com os demais desenvolvedores.
+- Gerenciar o projeto, distribuindo as tarefas entre os desenvolvedores.
+- Realizar o merge das _branches_ dos módulos desenvolvidos.
+- Modificar o módulo `main.py` de forma que a calculadora seja funcional.
+
 ### Demais desenvolvedores
-- Desenvolver separadamente os seguintes módulos: comprimento.py, massa.py, volume.py e velocidade.py.
+- Implementar separadamente os seguintes módulos: `comprimento.py`, `massa.py`, `volume.py` e `velocidade.py`.
 
-## Funcionalidades que devem ser implementadas
-### Módulo comprimento.py
-- Função de conversão de metros (m) para quilômetros (km).
-- Função de conversão de quilômetros (km) para (m).
-### Módulo massa.py
-- Função de conversão de gramas (g) para quilogramas (kg).
-- Função de conversão de quilogramas (kg) para gramas (g).
-### Módulo volume.py
-- Função de conversão de litros (l) para mililitros (ml).
-- Função de conversão de mililitros (ml) para litros (l).
-### Módulo velocidade.py
-- Função de conversão de quilômetros por hora (km/h) para metros por segundo (m/s).
-- Função de conversão de metros por segundo (m/s) para quilômetros por hora (km/h).
-### Módulo main.py
-- Menu para que o usuário escolha a conversão deseja.
-- Entrada de dados do usuário.
-- Chamada das funções criadas.
+## Funcionalidades a Serem Implementadas
 
-## Outros requisitos
-- Documentar todas as funções e módulos.
+### Módulo `comprimento.py`
+- Função para conversão de metros (m) para quilômetros (km).
+- Função para conversão de quilômetros (km) para metros (m).
 
+### Módulo `massa.py`
+- Função para conversão de gramas (g) para quilogramas (kg).
+- Função para conversão de quilogramas (kg) para gramas (g).
+
+### Módulo `volume.py`
+- Função para conversão de litros (l) para mililitros (ml).
+- Função para conversão de mililitros (ml) para litros (l).
+
+### Módulo `velocidade.py`
+- Função para conversão de quilômetros por hora (km/h) para metros por segundo (m/s).
+- Função para conversão de metros por segundo (m/s) para quilômetros por hora (km/h).
+
+### Módulo `main.py`
+- Implementar um menu para que o usuário selecione a conversão desejada.
+- Capturar a entrada de dados do usuário.
+- Chamar as funções correspondentes para realizar as conversões.
+
+## Outros Requisitos
+- Documentar todas as funções e módulos de forma clara e concisa.
