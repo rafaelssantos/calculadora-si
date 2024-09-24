@@ -10,7 +10,7 @@ Desenvolver uma calculadora do Sistema Internacional de Unidades (SI) capaz de r
 ## Uso colaborativo do Git
 Cada módulo deve ser implementado em um _branch_ separado. Esse _branch_ deve ser testado antes de ser integrado. Ao final do desenvolvimento do módulo, o _branch_ deve ser mesclado à _branch_ principal.
 
-## Atividades
+## Papéis e Atividades
 
 ### Desenvolvedor líder do projeto
 - Fazer um _fork_ deste repositório.
@@ -22,8 +22,7 @@ Cada módulo deve ser implementado em um _branch_ separado. Esse _branch_ deve s
 ### Demais desenvolvedores
 - Implementar separadamente os seguintes módulos: `comprimento.py`, `massa.py`, `volume.py` e `velocidade.py`.
 
-## Funcionalidades a Serem Implementadas
-
+## Funcionalidades a serem implementadas
 ### Módulo `comprimento.py`
 - Função para conversão de metros (m) para quilômetros (km).
 - Função para conversão de quilômetros (km) para metros (m).
