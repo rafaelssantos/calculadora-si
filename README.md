@@ -45,5 +45,5 @@ Cada módulo deve ser implementado em um _branch_ separado. Esse _branch_ deve s
 - Capturar a entrada de dados do usuário.
 - Chamar as funções correspondentes para realizar as conversões.
 
-## Outros Requisitos
+## Outros requisitos
 - Documentar todas as funções e módulos de forma clara e concisa.
