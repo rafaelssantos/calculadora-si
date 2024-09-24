@@ -1,5 +1,5 @@
 # calculadora-si
-Calculadora do Sistema Internacional de Unidades (SI). Este repositório é parte do enunciado de uma prática de desenvolvimento de software usando o Git.
+Calculadora do Sistema Internacional de Unidades (SI). Este repositório é o enunciado de um exercício prático de desenvolvimento de software usando o Git.
 
 ## Objetivos da atividade
 Simular o trabalho em equipe em projeto simples de um calculadora do Sistema Internacional de Unidades onde há diferentes desenvolvedores trabalhando.
