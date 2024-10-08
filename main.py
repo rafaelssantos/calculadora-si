@@ -1,6 +1,6 @@
 def main():
     """
-    Função principal do programa.
+    Função principal do programa. Natan e joey agora vai 
     """
     while True:  # Laço infinito
         print("#######################################################")
