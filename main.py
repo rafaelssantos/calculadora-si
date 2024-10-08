@@ -1,3 +1,8 @@
+import comprimento
+import massa
+import volume 
+
+
 def main():
     """
     Função principal do programa. Natan e joey agora vai 
@@ -70,3 +75,5 @@ def main():
 # ----------------------------------------------------------------------------------------
 if __name__ == "__main__":  # Garante que se o módulo for importado não será executado
     main()  # Chamada da função principal
+
+
