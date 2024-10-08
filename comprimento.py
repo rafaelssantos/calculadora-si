@@ -4,7 +4,7 @@ Módulo `comprimento.py`
 - Função para conversão de quilômetros (km) para metros (m). """
 
 
-def converte_m2km(self, metro, quilometro):
+def converte_m2km(metro, quilometro):
 
     quilometro = 0
     
@@ -12,7 +12,7 @@ def converte_m2km(self, metro, quilometro):
 
     return metro
 
-def converte_km2m(self, metro, quilometro):
+def converte_km2m(metro, quilometro):
 
     metro = 0
     
