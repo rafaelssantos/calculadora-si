@@ -31,8 +31,7 @@ def main():
 
         if escolha == "1":
             metros = float(input("Digite o valor em metros: "))
-            quilometros = float(input("Digite o valor em quilometros: "))
-            comprimento.MetrosParaQuilometros(metros, quilometros)
+            quilometros = comprimento.MetrosParaQuilometros(metros)
             print(f"{metros} metros são {quilometros} quilômetros.")
             
         elif escolha == "2":
