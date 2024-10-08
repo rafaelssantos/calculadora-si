@@ -5,4 +5,4 @@ def convert_metro_para_km(metro):
 
 # funcao para converter quilometro para metro
 def convert_quilometro_para_metro(quilometro):
-   return quilometro / 1000
+   return quilometro * 1000
