@@ -35,10 +35,6 @@ Cada módulo deve ser implementado em um _branch_ separado. Esse _branch_ deve s
 - Função para conversão de litros (l) para mililitros (ml).
 - Função para conversão de mililitros (ml) para litros (l).
 
-### Módulo `velocidade.py`
-- Função para conversão de quilômetros por hora (km/h) para metros por segundo (m/s).
-- Função para conversão de metros por segundo (m/s) para quilômetros por hora (km/h).
-
 ### Módulo `main.py`
 - Implementar um menu para que o usuário selecione a conversão desejada.
 - Capturar a entrada de dados do usuário.
