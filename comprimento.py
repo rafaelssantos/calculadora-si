@@ -15,7 +15,3 @@ def converte_km2m(quilometros):
     metros = quilometros / 1000
 
     return metros
-
-    
-
-
