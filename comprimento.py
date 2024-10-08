@@ -1,5 +1,5 @@
-def m4km(m):
+def MetrosParaQuilometros(m):
     return m/1000
 
-def km4m(km):
+def QuilometrosParaMetros(km):
     return km*1000
