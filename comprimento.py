@@ -4,21 +4,21 @@ Módulo `comprimento.py`
 - Função para conversão de quilômetros (km) para metros (m). """
 
 
-def converte_m2km(metro, quilometro):
+def converte_m2km(metros, quilometros):
 
-    quilometro = 0
+    quilometros = 0
     
-    metro *= 1000
+    metros *= 1000
 
-    return metro
+    return metros
 
-def converte_km2m(metro, quilometro):
+def converte_km2m(metros, quilometros):
 
-    metro = 0
+    metros = 0
     
-    quilometro /= 1000
+    quilometros /= 1000
 
-    return quilometro
+    return quilometros
 
     
 
