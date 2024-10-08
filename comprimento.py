@@ -6,12 +6,12 @@ Módulo `comprimento.py`
 
 def converte_m2km(metros):
 #teste
-    quilometros = metros * 1000
+    quilometros = metros / 1000
 
     return quilometros
 
 def converte_km2m(quilometros):
 
-    metros = quilometros / 1000
+    metros = quilometros * 1000
 
     return metros
