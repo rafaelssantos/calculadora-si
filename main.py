@@ -1,7 +1,7 @@
 import comprimento
 import massa
-import volume 
-
+import volume
+import time
 
 def main():
     """
@@ -32,8 +32,9 @@ def main():
         if escolha == "1":
             metros = float(input("Digite o valor em metros: "))
             quilometros = comprimento.MetrosParaQuilometros(metros)
-            print(f"{metros} metros são {quilometros} quilômetros.")
-            
+            print(f"{metros} metros são {quilometros} quilômetros.\n")
+            input("Pressione enter para prosseguir: ")
+
         elif escolha == "2":
             quilometros = float(input("Digite o valor em quilômetros: "))
             metros = None
@@ -75,5 +76,3 @@ def main():
 # ----------------------------------------------------------------------------------------
 if __name__ == "__main__":  # Garante que se o módulo for importado não será executado
     main()  # Chamada da função principal
-
-
