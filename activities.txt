@@ -5,5 +5,3 @@ massa.py
 natan
 volume.py
 main.py
-
-
